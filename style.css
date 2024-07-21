@@ -2,8 +2,6 @@ body{
     font-family: apercu-pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
     background-color: #191919;
     margin-right: 0px;
-    border-right: 0px;
-    padding-right: 0px;
 }
 .jus{
     background-color: #191919;
@@ -61,7 +59,7 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-right: 120px;
+
     
 }
 
@@ -105,9 +103,10 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 200px;
     margin-bottom: 170px;
-    padding-left: 100px;
+    padding-left: 200px;
     padding-right: 300px;
 
 }
@@ -171,6 +170,11 @@ h2{
     color: #ffffff;
 }
 
+.blc18{
+    display: flex;
+    flex-direction: column;
+    
+}
 a{
     text-decoration: none;
 }
