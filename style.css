@@ -103,15 +103,12 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
     margin-top: 200px;
     margin-bottom: 170px;
-    padding-left: 200px;
-    padding-right: 300px;
 
 }
 
-.zapier , .calendly , .hubspot{
+.zapier , .calendly , .hubspot , .notion{
     display: block;
     text-decoration: none;
     padding: 0.5rem;
@@ -121,6 +118,10 @@ h2{
     display: inline-block;
     border-radius: 30px;
     margin: 20px;
+}
+.notion{
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .hubspot{
     padding: 25px;
@@ -191,6 +192,10 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    line-height: 1px;
+    width: 900px;
+    padding-bottom: 40px;
 
 }
 
@@ -219,6 +224,7 @@ a{
     box-sizing: border-box;
     line-height: 28px;
 }
+
 article{
     display: block;
     text-decoration: none;
