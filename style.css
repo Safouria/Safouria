@@ -5,7 +5,14 @@ body{
     border-right: 0px;
     padding-right: 0px;
 }
-
+.jus{
+    background-color: #191919;
+    color: #ffffff;
+    text-align: center;
+}
+header{
+    background-color: #ffffff;
+}
 .nav-content{
     display: flex;
     flex-direction: row;
@@ -31,7 +38,7 @@ body{
     display: inline-block;
     border-radius: 10px;
   }
-.btn , .btn1 , .btn3:hover{
+.btn:hover , .btn1:hover , .btn3:hover{
     background-color: #363636;
 }
   .btn3{
