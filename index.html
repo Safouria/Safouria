@@ -1,80 +1,264 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./style.css"></a>
     </head>
     <body>
-        <div class="nav">
-            <div class="nav-content">
-                <div class="menu-left">
-                    <a href="https://www.typeform.com/"><img src="./images/typeform.png" alt="Go to Typeform.com" width="200"></a>
+        <header>
+            <div class="nav">
+                <div class="nav-content">
+                    <div class="Logo">
+                        <img src="./images/logo.svg" alt="typeform logo"/>
+                        <img src="./images/text.svg" alt="typeform" />
+                    </div>
+                    <div class="menu">
+                       <ul class="selection">
+                           <li>
+                               <button class="Products"style="border:none; background-color: white;" value="">Products</button>
+                           </li>
+                           <li>
+                               <button class="Soloution" style="border:none; background-color: white;" value="">Soloution</button>
+                           </li>
+                           <li>
+                               <button class="Templates" style="border:none; background-color: white;" value="">Templates</button>
+                           </li>
+                           <li>
+                               <button class="Integrations" style="border:none; background-color: white;" value="">Integrations</button>
+                           </li>
+                           <li>
+                               <button class="ResourcesandSuports" style="border:none; background-color: white;" value="">Resources and Suports</button>
+                           </li>
+                           <li>
+                               <button class="Pricing" style="border:none; background-color: white;" value="">Pricing</button>
+                           </li>
+                       </ul>
+                    </div>
+                    <div class="login">
+                       <a href="#">Log in</a>
+                       <a class="btn" href="#">Sign up</a>
+                    </div>
                 </div>
-                <div class="menu-bar">
-                   <select id="products" name="products" style="height: 30px"  style=" border: 1px solid #fff">
-                    <option value="">Products</option>
-                    <option value="Product overview">Product overview</option>
-                    <option value="or enterprise">for enterprise</option>
-                    <option value="what's new">what's new</option>
-                   </select>
-                   <select id="Soloutions" name="Soloutions" style="height: 30px">
-                    <option>Soloutions</option>
-                   </select>
-                   <select id="Resources" name="Resources" style="height: 30px">
-                    <option>Resources</option>
-                   </select>
-                   <select id="Enterprise" name="Enterprise" style="height: 30px">
-                    <option>Enterprise</option>
-                   </select>
-                   <select id="Pricing" name="Pricing" style="height: 30px">
-                    <option>Pricing</option>
-                   </select>
+            </div>
+        </header>
+        <article>
+            <section class="sec1">
+                <div class="vid1">
+                    <video src="./video/hero.webm" alt="hero" autoplay muted loop height="500px"></video>
                 </div>
-                <div class="menu-right">
-                    <a class="login" href="#">login</a>
-                    <button class="signup"> Sign Up</button> 
+                <div class="content">
+                    <h1 style="font-size: 60px;">Make forms <br> worth filling out</h1>
+                       <p style="font-size: 20px"> more data—like signups, feedback, and anything else <br> —with forms designed to be <b>refreshingly different</b>.</p>
+                       <a class="btn" label="Get started—it's free" href="#">Get started—it's free</a>
+               </div>
+
+            </section>
+            <section class="sec2">
+                <div class="banner">
+                    <p class="Rate" style="font-size: 18px;">
+                       Rated 4.5 out of 600+ reviews on G2.com and trusted by
+                    </p>
+                    <div class="logos">
+                      <img class="log2" src="https://www.typeform.com/static/homepage/partners/airbnb-logo.svg"  width="130px">
+                      <img class="log2" src="https://www.typeform.com/static/homepage/partners/mailchimp-logo.svg" width="130px">
+                      <img class="log2" src="https://www.typeform.com/static/homepage/partners/hermes-logo.svg"  width="130px">
+                      <img class="log2" src="https://www.typeform.com/static/homepage/partners/hubspot-logo.svg"  width="130px">
+                      <img class="log2" src="https://www.typeform.com/static/homepage/partners/barrys-logo.svg"  width="130px">
+                </div>
+            </section>
+            <section class="sec3">
+                <h2 style="font-size: 48px;">Refreshingly different,<br>
+                by design</h2>
+            </section>
+           <section class="sec4">
+                <div class="d4">
+                    <h3 style="font-size: 42px;">Looks striking. Feels <br>effortless.</h3>
+                    <p class="impress" style="font-size: 18px;">Impress your form takers. Catch their eye with <br>striking visuals, 
+                        and make form-filling feel effortless <br>by replacing walls of questions with just one at a time.</p>
+                        <a class="btn3" label="Sign up" href="#">Sign Up</a>
+                </div>
+               <div class="vid2">
+                  <video src="./video/for-them.webm" alt="for-them" autoplay muted loop height="460px"></video> 
+                </div>
+           </section>
+           <section class="sec5">
+            <div class="v3">
+                <video src="./video/for-you.webm" alt="for-you" autoplay muted loop height="450px"></video>
+            </div>
+            <div class="d5">
+                <h3 style="font-size: 42px;">Embeds smoothly. <br>Reveals more.</h3>
+                <p class="Collect" style="font-size: 18px;"><b>Collect more and better data.</b> Embed forms where 
+                    <br>people see them, from web to email. Ask the right 
+                    <br>follow-up question at the right time to reveal deeper 
+                    <br>insights.</p>
+                    <a class="btn3" label="Sign up" href="#">Sign Up</a>
+            </div>
+           </section>
+           <section class="sec6">
+              <div>
+                <h4 style="font-size: 24px;">Works with your existing <br>workflow</h4>
+                <a class="Browse" href="#" alt="Browse">Browse 120+ integrations</a>
+              </div>
+              <img class="zapier" src="./images/zapier-logo.svg" alt="zapier">
+              <img class="calendly" src="./images/calendly-logo.svg" alt="calendly">
+              <img class="hubspot" src="./images/hubspot-logo.svg" alt="hubspot">
+           </section>
+           <section class="sec7">
+              <div class="d7">
+                 <p class="p7" style="font-size: 58px;">Do it all with a form</p>
+                 <p class="p71" style="font-size: 24px;">Whatever your goal, start with a ready-made template.</p>
+              </div>
+           </section>
+           <section class="sec8">
+              <div class="blc1" label="Marketing" href="#">Marketing
+                 <div class="blc18">
+                    <a class="" href="#">Sign up</a>
+                    <a class="" href="#">Branding</a>
+                    <a class="" href="#">Costumer feedback</a>
+                 </div>
+              </div>
+              <div class="blc1" label="Products" href="#">Products
+                   <div class="blc18">
+                      <a class="" href="#">Sign up</a>
+                      <a class="" href="#">Branding</a>
+                      <a class="" href="#">Costumer feedback</a>
+                   </div>
+              </div>
+              <div class="blc1" label="Costumer success" href="#">Marketing
+                   <div class="blc18">
+                      <a class="" href="#">Sign up</a>
+                      <a class="" href="#">Branding</a>
+                      <a class="" href="#">Costumer feedback</a>
+                   </div>
+              </div>
+              <div class="blc1" label="HR" href="#">HR
+                   <div class="blc18">
+                     <a class="" href="#">Sign up</a>
+                     <a class="" href="#">Branding</a>
+                     <a class="" href="#">Costumer feedback</a>
+                   </div>
+                </div>
+              <div class="blc1" label="Creators" href="#">Creators
+                   <div class="blc18">
+                     <a class="" href="#">Sign up</a>
+                     <a class="" href="#">Branding</a>
+                     <a class="" href="#">Costumer feedback</a>
+                   </div>
+                </div>
+              <div class="blc1" label="General Business" href="#">General Business
+                   <div class="blc18">
+                     <a class="" href="#">Sign up</a>
+                     <a class="" href="#">Branding</a>
+                     <a class="" href="#">Costumer feedback</a>
+                   </div>
+                </div>
+           </section>
+           <section class="sec9">
+            <a class="Browse" href="#" style="font-size: 17px;"><b>Browse all templates</b></a>
+           </section>
+           <section class="sec10">
+            <div class="d101">
+                <h4 style="font-size: 52px; font-weight: 400;">Why Typeform?</h4>
+                <p style="font-size: 22px;">Because after switching to us...</p>
+            </div>
+            <div class="d102">
+                <div class="d1021">
+                    <h5 style="font-size: 64px; font-weight: 400px;">96%</h5>
+                    <p class="p10">of customers say they have a better brand experience</p>
+                </div>
+                <div class="d1021">
+                    <h5 style="font-size: 64px; font-weight: 400px;">95%</h5>
+                    <p class="p10">of customers say they gather more data, more easily</p>
+                </div>
+                <div class="d1021">
+                    <h5 style="font-size: 64px; font-weight: 400px;">87%</h5>
+                    <p class="p10">of customers say they reveal deeper insights from data</p>
                 </div>
             </div>
-        </div>
-        <div class="main-content">
-            <div class="video">
-                <video src="./video/hero.webm" width="650" autoplay muted loop></video>
+           </section>
+        </article>
+        <section class="sec011">
+            <div class="d011">
+                <p class="p011" style="font-size: 58px;">Break the norm <br>of forms</p>
+                <div class="d011child">
+                    <p class="p011" style="font-size: 18px;"><b>Our Free Plan lets you:</b></p>
+                <ul class="p011 , ul2">
+                    <li>Create unlimited forms</li>
+                    <li>Access 3,000+ templates</li>
+                    <li>Start getting responses</li>
+                </ul>
+                </div>
             </div>
-            <div class="discription">
-                 <h1>Make forms <br> worth filling out</h1>
-                    <p style="font-size: 28px"> more data—like signups, feedback, and anything else <br> —with forms designed to be <b>refreshingly different</b>.</p>
-                    <button class="start">Get started-It's free.</button>
+            <div class="d0112">
+                <a class="btn011" label="Sign up" href="#">Sign up</a>
+                <a class="btn0112" label="Compare plans" href="#">Compare plans</a>
             </div>
-        </div>
-        <p class="Rated">
-            Rated 4.5 out of 600+ reviews on G2.com and trusted b 
-        </p>
-        <div class="logos">
-             <img src="https://www.typeform.com/static/homepage/partners/airbnb-logo.svg"  width="130px">
-             <img src="https://www.typeform.com/static/homepage/partners/mailchimp-logo.svg" width="130px">
-             <img src="https://www.typeform.com/static/homepage/partners/hermes-logo.svg"  width="130px">
-             <img src="https://www.typeform.com/static/homepage/partners/hubspot-logo.svg"  width="130px">
-             <img src="https://www.typeform.com/static/homepage/partners/barrys-logo.svg"  width="130px">
-        </div>
-        <div>
-            <h2 class="design"><b>Refreshingly different,<br>
-                by design</b></h2>
-        </div>
-        <div class="main-content2">
-            <div class="left">
-                <h2 class="effortless">
-                    Looks striking. <br> Feels effortless.
-                </h2>
-                <p><b>Impress your form takers.</b> Catch their eye with<br>
-                 striking visuals, and make form-filling feel effortless <br>
-                 by replacing walls of questions with just one at a time.
-                </p>
-                <button class="signup"> Sign Up</button>
-            </div>
-            <div class="right" width="550">
-                <video src="./video/for-them.webm" width="650"></video>
-            </div>
-        </div>
-       
+        </section>
+        <footer>
+            <section class="sec012">
+                <div class="d012" label="PRODUCT" href="#">PRODUCT
+                   <div class="d0121">
+                      <a class="blc81" href="#">Pricing</a>
+                      <a class="blc81" href="#">Enterprise</a>
+                   </div>
+                </div>
+                <div class="d012" label="TEMPLATES" href="#">TEMPLATES
+                     <div class="d0121">
+                        <a class="blc81" href="#">Popular templates</a>
+                        <a class="blc81" href="#">Recent templates</a>
+                        <a class="blc81" href="#">Popular categories</a>
+                        <a class="blc81" href="#">Recent categories</a>
+                     </div>
+                </div>
+                <div class="d012" label="INTEGRATIONS" href="#">INTEGRATIONS
+                     <div class="d0121">
+                         <a class="blc81" href="#">Popular integration apps</a>
+                         <a class="blc81" href="#">More integration apps</a>
+                         <a class="blc81" href="#">Popular app categories</a>
+                         <a class="blc81" href="#">More app categories</a>
+                     </div>
+                </div>
+                <div class="d012" label="RESOURCES" href="#">RESOURCES
+                    Developers / API
+                     <div class="d0121">
+                       <a class="blc81" href="#">Blog</a>
+                       <a class="blc81" href="#">Help center</a>
+                       <a class="blc81" href="#">Community</a>
+                       <a class="blc81" href="#">Tutorials</a>
+                       <a class="blc81" href="#">FAQs</a>
+                       <a class="blc81" href="#">Why Typeform</a>
+                       <a class="blc81" href="#">Referral program</a>
+                       <a class="blc81" href="#">Partners</a>
+                       <a class="blc81" href="#">System status</a>
+                       <a class="blc81" href="#">Developers / API</a>
+                     </div>
+                  </div>
+                <div class="d012" label="GET TO KNOW US" href="#">GET TO KNOW US
+                     <div class="d0121">
+                       <a class="blc81" href="#">About us</a>
+                       <a class="blc81" href="#">Brand</a>
+                       <a class="blc81" href="#">Careers</a>
+                       <a class="blc81" href="#">Contact sales</a>
+                       <a class="blc81" href="#">News</a>
+                       <a class="blc81" href="#">Terms & conditions</a>
+                       <a class="blc81" href="#">Typeform (es)</a>
+                       <a class="blc81" href="#">Newsletter</a>
+
+                     </div>
+                  </div>
+             </section>
+             <hr>
+             <section class="sec013">
+                <p>With love, from Barcelona</p>
+                <a href="#"><button class="ftrlnk" style="border:none; background-color: #191919;" value="English">English</button></a>
+                <a href="#" class="ftrlnk">Cookie Settings</a>
+                <a href="#" class="ftrlnk">Check our Cookie Policy to delete cookies</a>
+                <a href="#" class="ftrlnk">Report abuse</a>
+                <p>© Typeform</p>
+             </section>
+
+        </footer>
 
     </body>
 </html>
