@@ -1,12 +1,20 @@
+* ,*:before,*:after{box-sizing:inherit;
+}
+
 body{
     font-family: apercu-pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
     background-color: #191919;
-    margin-right: 0px;
+    margin: 0px;
 }
-.jus{
+.p1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color: #191919;
     color: #ffffff;
     text-align: center;
+    height: 40px;
 }
 header{
     background-color: #ffffff;
@@ -14,18 +22,33 @@ header{
 .nav-content{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
-
+.logo .img2:hover{
+    transition: 3s ease-in 1s infinite reverse both running slidein;
+}
 .selection{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     border-bottom: none;
     list-style-type: none;
 }
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.login .a1{
+    text-decoration: none;
+    color: #000000;
 
+}
 .btn , .btn3 {
     display: block;
     text-decoration: none;
@@ -35,10 +58,15 @@ header{
     color: white;
     display: inline-block;
     border-radius: 10px;
+    margin: 20px;
   }
 .btn:hover , .btn1:hover , .btn3:hover{
     background-color: #363636;
 }
+.positioned-sticky{
+    position: sticky;
+    top: 0px;
+  }
   .btn3{
     padding-left:45px;
     padding-right: 45px;
@@ -107,6 +135,9 @@ h2{
     margin-bottom: 170px;
 
 }
+.sec6 h4{
+    font-weight: none ;
+}
 
 .zapier , .calendly , .hubspot , .notion{
     display: block;
@@ -139,46 +170,58 @@ h2{
     flex-direction: column;
     align-items: center;
     line-height: 1px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 .sec8{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        max-width: 1180px;
-        padding-left: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1080px;
+    padding-left: 150px;
+    padding-right: 50px;
 }
-
-.blc1{
+.card{
     display: block;
     text-decoration: none;
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-bottom: 30px;
-    padding-right: 170px;
+    width: 26%;
+    padding: 24px;
     border: 1px solid #F7F7F6;
     background-color: #F7F7F6;
     color: #000000;
     display: inline-block;
     border-radius: 10px;
     margin-bottom: 20px;
-
+    margin-left: 10px;
+    margin-right: 10px;
 }
-.blc1:hover{
+.card a{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    margin: 3px;
+}
+.card .card-title{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.card:hover{
     background-color: #000000;
     color: #ffffff;
 }
+.card:hover a{
+    color: #ffffff;
+}
 
-.blc18{
+.card-links {
     display: flex;
     flex-direction: column;
-    
 }
-a{
-    text-decoration: none;
+.card-links a:hover{
+    text-decoration: underline;
 }
+
 .Browse{
     display: flex;
     flex-direction: column;
@@ -186,24 +229,41 @@ a{
     padding-top: 40px;
     padding-bottom: 60px;
     text-decoration-line: underline;
+    color: #000000;
 }
+.sec10{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.d101{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec10 h4{
+    font-weight: 400;
+    font-size: 64px;
+    margin-bottom: 0px;
+}
+.d102 h5{
+    font-size: 64px; 
+    font-weight: 400px;
+}
+.d102 p{
+    text-align: center;
 
+}
 .d102{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: top;
     line-height: 1px;
     width: 900px;
     padding-bottom: 40px;
 
-}
-
-.d101 , .sec10{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    -webkit-box-align: center;
 }
 
 .d1021{
@@ -216,10 +276,6 @@ a{
 
 }
 
-.sec10{
-    justify-content: space-between;
-}
-
 .p10{
     box-sizing: border-box;
     line-height: 28px;
@@ -229,7 +285,7 @@ article{
     display: block;
     text-decoration: none;
     padding-top: 30px;
-    padding-left: 30px;
+    padding-left: 60px;
     padding-bottom: 30px;
     padding-right: 170px;
     border: 1px solid #ffffff;
@@ -238,7 +294,6 @@ article{
     display: inline-block;
     border-bottom-left-radius: 90px;
     border-bottom-right-radius: 90px;
-    margin-bottom: 20px;
 }
 
 .sec011{
@@ -246,17 +301,25 @@ article{
     flex-direction: column;
     align-items: center;
     text-align: center;
-
-}
-.d011{
-    padding-bottom: 88px;
-}
-
-.d0112{
-    margin-bottom: 150px;
 }
 .p011 {
     color: #ffffff;
+    margin-bottom: 0px;
+}
+.d011{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    padding-right: 40px;
+    font-size: 18px;
+}
+.d011 .ul011{
+    color:#ffffff 
 }
 .btn011 , .btn0112{
     display: block;
@@ -281,18 +344,37 @@ article{
     padding-left: 10px;
     padding-right: 10px;
 }
-.ul2{
-    list-style-type: none;
+.d0112{
+    margin-bottom: 150px;
 }
-
 .sec012{
     display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        max-width: 1180px;
-        padding-left: 150px;
-        color: #ffffff;
-        margin-bottom: 88px;
+    justify-content: space-around;
+    align-items: top;
+    flex-wrap: wrap;
+    max-width: 1180px;
+    padding-left: 150px;
+    color: #ffffff;
+    margin-bottom: 88px;
+}
+.sec012 a{
+    text-decoration: none;
+    margin: 10px;
+}
+.d012{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+.d012 .p012{
+    margin-bottom: 20px;
+}
+.my-svg-alternate{
+    fill: #ffffff;
+}
+.ul2{
+    list-style-type: none;
 }
 .d0121{
     display: flex;
@@ -305,18 +387,30 @@ article{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 13px;
+}
+.d013{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.d013 .d0131{
+    margin: 20px;
 }
 .ftrlnk{
     color: #ffffff;
 }
+/*Line code is hr*/
 hr{
     background-color: #333;
     border: 0 none;
     color: #eee;
     height: 1px;
 }
-.a013{
+.a012{
     color: #ffffff;
     margin: 10px;
 }
