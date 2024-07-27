@@ -16,6 +16,9 @@ body{
     text-align: center;
     height: 40px;
 }
+.p1 a{
+    color: #ffffff;
+}
 header{
     background-color: #ffffff;
 }
@@ -28,9 +31,12 @@ header{
     padding-right: 30px;
 }
 .logo .img2:hover{
-    transition: 3s ease-in 1s infinite reverse both running slidein;
+    transition: transform 500ms ease 0s, visibility 500ms ease 0s;
 }
-.selection{
+.logo a{
+    text-decoration: none;
+}
+.ul-menu{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -38,12 +44,23 @@ header{
     border-bottom: none;
     list-style-type: none;
 }
+.ul-menu button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+}
+.ul-menu svg:hover{
+    transform: 180deg;
+}
 .login{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
+
 .login .a1{
     text-decoration: none;
     color: #000000;
