@@ -22,7 +22,6 @@ body{
 header{
     background-color: #ffffff;
 }
-
 .svg1 .svg2{
     text-decoration: none;
     color: #000000;
@@ -34,7 +33,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -45,6 +44,9 @@ header{
 }
 .logo a{
     text-decoration: none;
+}
+.ul-menu button:hover svg{
+    transform: rotate(180deg);
 }
 .ul-menu{
     display: flex;
