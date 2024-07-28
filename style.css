@@ -22,6 +22,14 @@ body{
 header{
     background-color: #ffffff;
 }
+
+.svg1 .svg2{
+    text-decoration: none;
+    color: #000000;
+}
+.svg2:hover{
+    transition: all 2s;
+}
 .nav-content{
     display: flex;
     flex-direction: row;
@@ -30,8 +38,10 @@ header{
     padding-left: 30px;
     padding-right: 30px;
 }
-.logo .img2:hover{
-    transition: transform 500ms ease 0s, visibility 500ms ease 0s;
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .logo a{
     text-decoration: none;
@@ -50,9 +60,6 @@ header{
     align-items: center;
     justify-content: space-around;
     font-size: 16px;
-}
-.ul-menu svg:hover{
-    transform: 180deg;
 }
 .login{
     display: flex;
@@ -230,7 +237,9 @@ h2{
 .card:hover a{
     color: #ffffff;
 }
-
+.card:hover svg{
+    color: #ffffff;
+}
 .card-links {
     display: flex;
     flex-direction: column;
@@ -361,6 +370,14 @@ ul {
     padding-left: 10px;
     padding-right: 10px;
 }
+.btn011:hover{
+    background-color: #c9c9c9;
+    border-color: #c9c9c9;
+}
+.btn0112:hover{
+    color: #c9c9c9;
+    border-color: #c9c9c9;
+}
 .d0112{
     margin-bottom: 150px;
 }
@@ -398,6 +415,15 @@ ul {
     flex-direction: column;
     justify-content: space-around;
 }
+.a-svg:hover{
+    color: #c9c9c9;
+}
+.a-transition:hover{
+    transition: all 0.2s;
+    width: 80%;
+    margin-left: 20%;
+    margin-right: 10%;
+  }
 .sec013{
     color: #ffffff;
     display: flex;
@@ -417,8 +443,17 @@ ul {
 .d013 .d0131{
     margin: 20px;
 }
+.sec013 button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 .ftrlnk{
     color: #ffffff;
+}
+.ftrlnk:hover{
+    color: #939393;
 }
 /*Line code is hr*/
 hr{
@@ -428,6 +463,10 @@ hr{
     height: 1px;
 }
 .a012{
+    display: block;
     color: #ffffff;
     margin: 10px;
+}
+.ftrlnk svg{
+    color: #ffffff;
 }
