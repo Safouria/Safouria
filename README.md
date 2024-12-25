@@ -8,7 +8,7 @@ Check out the live demo:
 ![Screenshot 2024-12-25 172150](https://github.com/user-attachments/assets/909e8656-830c-43a3-a356-d86692f47e07)
 ![Screenshot 2024-12-25 172243](https://github.com/user-attachments/assets/9edea960-650e-47bf-9235-227d7a516bf6)
 
-Technologies Used
+<b>Technologies Used</b>
 React.js: The front-end framework used to build the user interface.
 React Router: For navigating between different pages (e.g., search results, movie details).
 TMDb API: Used to fetch movie and series data.
