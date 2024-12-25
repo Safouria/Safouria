@@ -1,5 +1,5 @@
-<b>Safoorimo is a Movies & Series Web App </b><hr/>
-A web application that allows users to explore movies and TV series using data fetched from The Movie Database (TMDb) API. Users can view details about movies and TV shows, including titles, descriptions, release dates, and more.<hr/><hr/>
+<b>Safoorimo is a Movies & Series Web App </b><br/>
+A web application that allows users to explore movies and TV series using data fetched from The Movie Database (TMDb) API. Users can view details about movies and TV shows, including titles, descriptions, release dates, and more.<br/><br/>
 
 Demo<hr/>
 Check out the live demo:<hr/>
